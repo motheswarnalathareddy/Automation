@@ -14,6 +14,7 @@ public class PostSteps {
     @When("^User type the message in the message box$")
     public void user_type_the_message_in_the_message_box()  {
         System.out.println("User type the message in the message box");
+        System.out.println("Hello World");
            }
 
     @Then("^Message should get posted$")
